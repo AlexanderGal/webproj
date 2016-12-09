@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class AppController {
-	@RequestMapping(value="/test", method=RequestMethod.GET)
+	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String printWelcome(ModelMap model){
 		model.addAttribute("title","Spring MVC + MVN + @JavaConfig");
 		return "index";

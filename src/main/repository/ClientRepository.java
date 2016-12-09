@@ -7,9 +7,9 @@ import org.springframework.data.repository.query.Param;
 import main.entity.Client;
 
 public interface ClientRepository extends JpaRepository<Client, Long>{
-	@Query("select from Client c where c.id = :id")
+	@Query("select b from Client b where b.id = :id")
 	Client findById(@Param("id")long id);
 	
-	@Query("select from Client c where c.name = :name")
+	@Query("select c from Client c where c.firstName = :name")
 	Client findByName(@Param("name") String name);
 }
