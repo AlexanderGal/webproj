@@ -31,7 +31,7 @@
         <spring.data>1.10.5.RELEASE</spring.data>
         <javax.servlet>3.0.1</javax.servlet>
         <mysql.version>5.1.29</mysql.version>
-        <hb.manager>5.2.2.Final</hb.manager>
+        <hb.manager>5.1.0.Final</hb.manager>
         <spring.test>4.3.4.RELEASE</spring.test>
         <junit.version>4.12</junit.version>
         <jstl.version>1.2</jstl.version>
@@ -44,7 +44,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.mvc}</version>
         </dependency>
- 
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
